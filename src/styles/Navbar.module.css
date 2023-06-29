@@ -3,9 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter";
-  background-color: #f4f2e9;
 }
-nav {
+.nav {
   height: 100px;
   justify-content: center;
   width: 80%;
@@ -18,11 +17,11 @@ nav {
   margin-top: 10px;
 }
 
-ul {
+.ul {
   display: flex;
   width: fit-content;
 }
-ul li {
+.ul li {
   margin-left: 20px;
   text-decoration: none;
   list-style-type: none;

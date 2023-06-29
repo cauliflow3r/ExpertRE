@@ -12,7 +12,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="nav">
+    <nav className={classes.nav}>
       <a href="localhost:3000">
         <img
           width="96"

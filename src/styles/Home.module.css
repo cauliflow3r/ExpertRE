@@ -1,10 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter";
-}
 .hero {
   height: 500px;
-  background-color: bisque;
+  display: flex;
+}
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.iconsLeft {
+  margin-left: 10px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-family: "Caprasimo";
+  margin-left: 15px;
+  text-align: center;
+  font-size: 75px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroImage {
+  border-radius: 0 50px 0 50px;
+  border: 2px solid black;
+  display: flex;
+  height: 500px;
 }

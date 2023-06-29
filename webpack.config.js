@@ -2,10 +2,26 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.js", // Entry point of your application
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"), // Output directory
-    filename: "bundle.js", // Output file name
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
   },
-  // Other configuration options
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-react"],
+          },
+        },
+      },
+    ],
+  },
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
 };
