@@ -8,6 +8,7 @@ import Contacts from "../pages/Contacts";
 import AddListing from "../pages/AddListing";
 import NotFound from "../pages/NotFound";
 import MainLayout from "../layouts/MainLayout/MainLayout";
+import Products from "../pages/Products";
 
 const MainRoute = () => {
   return (
@@ -15,6 +16,7 @@ const MainRoute = () => {
       <MainLayout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/news" element={<News />} />
           <Route path="/reviews" element={<Reviews />} />
