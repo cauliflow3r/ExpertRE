@@ -2,13 +2,313 @@
   "posts": [
     {
       "id": 1,
-      "photo": "https://ibb.co/g7wrMST",
+      "photo": "https://i.ibb.co/pytPS3r/pov.jpg",
       "address": "Поваринская 36",
       "author": "Азамат",
       "m3": 53,
       "price": 50000,
       "rooms": 2,
       "parking": true
+    },
+    {
+      "id": 2,
+      "photo": "https://ibb.co/example2",
+      "address": "Example Address 2",
+      "author": "Author 2",
+      "m3": 80,
+      "price": 75000,
+      "rooms": 3,
+      "parking": false
+    },
+    {
+      "id": 3,
+      "photo": "https://ibb.co/example3",
+      "address": "Example Address 3",
+      "author": "Author 3",
+      "m3": 120,
+      "price": 100000,
+      "rooms": 4,
+      "parking": true
+    },
+    {
+      "id": 4,
+      "photo": "https://ibb.co/example4",
+      "address": "Example Address 4",
+      "author": "Author 4",
+      "m3": 95,
+      "price": 85000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 5,
+      "photo": "https://ibb.co/example5",
+      "address": "Example Address 5",
+      "author": "Author 5",
+      "m3": 68,
+      "price": 60000,
+      "rooms": 2,
+      "parking": false
+    },
+    {
+      "id": 6,
+      "photo": "https://ibb.co/example6",
+      "address": "Example Address 6",
+      "author": "Author 6",
+      "m3": 105,
+      "price": 95000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 7,
+      "photo": "https://ibb.co/example7",
+      "address": "Example Address 7",
+      "author": "Author 7",
+      "m3": 75,
+      "price": 70000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 8,
+      "photo": "https://ibb.co/example8",
+      "address": "Example Address 8",
+      "author": "Author 8",
+      "m3": 110,
+      "price": 120000,
+      "rooms": 4,
+      "parking": false
+    },
+    {
+      "id": 9,
+      "photo": "https://ibb.co/example9",
+      "address": "Example Address 9",
+      "author": "Author 9",
+      "m3": 90,
+      "price": 80000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 10,
+      "photo": "https://ibb.co/example10",
+      "address": "Example Address 10",
+      "author": "Author 10",
+      "m3": 55,
+      "price": 55000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 11,
+      "photo": "https://ibb.co/example11",
+      "address": "Example Address 11",
+      "author": "Author 11",
+      "m3": 120,
+      "price": 110000,
+      "rooms": 4,
+      "parking": true
+    },
+    {
+      "id": 12,
+      "photo": "https://ibb.co/example12",
+      "address": "Example Address 12",
+      "author": "Author 12",
+      "m3": 70,
+      "price": 65000,
+      "rooms": 2,
+      "parking": false
+    },
+    {
+      "id": 13,
+      "photo": "https://ibb.co/example13",
+      "address": "Example Address 13",
+      "author": "Author 13",
+      "m3": 95,
+      "price": 90000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 14,
+      "photo": "https://ibb.co/example14",
+      "address": "Example Address 14",
+      "author": "Author 14",
+      "m3": 75,
+      "price": 70000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 15,
+      "photo": "https://ibb.co/example15",
+      "address": "Example Address 15",
+      "author": "Author 15",
+      "m3": 110,
+      "price": 100000,
+      "rooms": 4,
+      "parking": false
+    },
+    {
+      "id": 16,
+      "photo": "https://ibb.co/example16",
+      "address": "Example Address 16",
+      "author": "Author 16",
+      "m3": 85,
+      "price": 80000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 17,
+      "photo": "https://ibb.co/example17",
+      "address": "Example Address 17",
+      "author": "Author 17",
+      "m3": 58,
+      "price": 55000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 18,
+      "photo": "https://ibb.co/example18",
+      "address": "Example Address 18",
+      "author": "Author 18",
+      "m3": 100,
+      "price": 95000,
+      "rooms": 3,
+      "parking": false
+    },
+    {
+      "id": 19,
+      "photo": "https://ibb.co/example19",
+      "address": "Example Address 19",
+      "author": "Author 19",
+      "m3": 70,
+      "price": 65000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 20,
+      "photo": "https://ibb.co/example20",
+      "address": "Example Address 20",
+      "author": "Author 20",
+      "m3": 120,
+      "price": 110000,
+      "rooms": 4,
+      "parking": true
+    },
+    {
+      "id": 21,
+      "photo": "https://ibb.co/example21",
+      "address": "Example Address 21",
+      "author": "Author 21",
+      "m3": 75,
+      "price": 70000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 22,
+      "photo": "https://ibb.co/example22",
+      "address": "Example Address 22",
+      "author": "Author 22",
+      "m3": 110,
+      "price": 100000,
+      "rooms": 4,
+      "parking": false
+    },
+    {
+      "id": 23,
+      "photo": "https://ibb.co/example23",
+      "address": "Example Address 23",
+      "author": "Author 23",
+      "m3": 95,
+      "price": 90000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 24,
+      "photo": "https://ibb.co/example24",
+      "address": "Example Address 24",
+      "author": "Author 24",
+      "m3": 70,
+      "price": 65000,
+      "rooms": 2,
+      "parking": false
+    },
+    {
+      "id": 25,
+      "photo": "https://ibb.co/example25",
+      "address": "Example Address 25",
+      "author": "Author 25",
+      "m3": 105,
+      "price": 95000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 26,
+      "photo": "https://ibb.co/example26",
+      "address": "Example Address 26",
+      "author": "Author 26",
+      "m3": 75,
+      "price": 70000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 27,
+      "photo": "https://ibb.co/example27",
+      "address": "Example Address 27",
+      "author": "Author 27",
+      "m3": 110,
+      "price": 120000,
+      "rooms": 4,
+      "parking": false
+    },
+    {
+      "id": 28,
+      "photo": "https://ibb.co/example28",
+      "address": "Example Address 28",
+      "author": "Author 28",
+      "m3": 90,
+      "price": 80000,
+      "rooms": 3,
+      "parking": true
+    },
+    {
+      "id": 29,
+      "photo": "https://ibb.co/example29",
+      "address": "Example Address 29",
+      "author": "Author 29",
+      "m3": 55,
+      "price": 55000,
+      "rooms": 2,
+      "parking": true
+    },
+    {
+      "id": 30,
+      "photo": "https://ibb.co/example30",
+      "address": "Example Address 30",
+      "author": "Author 30",
+      "m3": 120,
+      "price": 110000,
+      "rooms": 4,
+      "parking": true
+    },
+    {
+      "photo": "dwadwa",
+      "address": "dwadw",
+      "author": "adwa",
+      "m3": "122112",
+      "price": "232313",
+      "rooms": "2312312312312312",
+      "parking": true,
+      "id": 31
     }
   ],
   "consts": {

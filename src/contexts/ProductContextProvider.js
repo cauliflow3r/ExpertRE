@@ -42,14 +42,22 @@ function ProductContextProvider({ children }) {
 
   //! const navigate = useNavigate();
 
-  // функция для получения данных с сервера
+  // // функция для получения данных с сервера
+  // const getProducts = async () => {
+  //   // делауь запрос, получаем продукты с API
+  //   const { data } = await axios(
+  //     `${JSON_API_PRODUCTS}${window.location.search}`
+  //   );
+  //   // поместили в состояние то, что получили в запросе выше
+  //   dispatch({ type: ACTIONS.GET_PRODUCTS, payload: data });
+  // };
   const getProducts = async () => {
-    // делауь запрос, получаем продукты с API
-    const { data } = await axios(
-      `${JSON_API_PRODUCTS}${window.location.search}`
-    );
-    // поместили в состояние то, что получили в запросе выше
-    dispatch({ type: ACTIONS.GET_PRODUCTS, payload: data });
+    try {
+      const response = await axios.get("http://localhost:8000/posts");
+      dispatch({ type: ACTIONS.GET_PRODUCTS, payload: response.data });
+    } catch (error) {
+      console.error("Error retrieving products:", error);
+    }
   };
 
   // добавление нового продукта

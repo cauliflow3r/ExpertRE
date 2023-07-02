@@ -1,26 +1,42 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ApartmentItem from "./ApartmentItem";
 import { Link } from "react-router-dom";
-import { margin } from "@mui/system";
+import { useProducts } from "../contexts/ProductContextProvider";
+import classes from "../styles/Latest.module.css";
 
 const Latest = () => {
+  const { products, getProducts } = useProducts();
+  const [latestProducts, setLatestProducts] = useState([]);
+
+  useEffect(() => {
+    getProducts();
+  }, []);
+
+  useEffect(() => {
+    // Get the latest 5 products from the products array
+    const latest = products.slice(0, 6);
+    setLatestProducts(latest);
+  }, [products]);
+
   return (
-    <div style={{ width: "100%", justifyContent: "center" }}>
-      <div
-        style={{
-          marginTop: 100,
-          width: "90%",
-          display: "flex",
-          justifyContent: "space-between",
-          backgroundColor: "blue",
-        }}
-      >
-        <h2 style={{}}>Cвежие объявления</h2>
-        <Link to="/products">
-          <button>Посмотреть всё</button>
-        </Link>
+    <div className={classes.main}>
+      <div className={classes.container}>
+        <div className={classes.topBar}>
+          <h2>Cвежие объявления</h2>
+          <Link to="/products">
+            <button className={classes.bottone5}>Посмотреть всё</button>
+          </Link>
+        </div>
+        <div className={classes.cardsContainer}>
+          {latestProducts.map((product) => (
+            <ApartmentItem
+              className={classes.card}
+              key={product.id}
+              product={product}
+            />
+          ))}
+        </div>
       </div>
-      <ApartmentItem />
     </div>
   );
 };
